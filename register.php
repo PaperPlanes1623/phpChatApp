@@ -60,9 +60,9 @@
                     Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_in">Register</button>
+                <button type="submit" class="btn btn-primary btn-block btn-lg" name="register">Register</button>
             </div>
-            <!-- <?php //include("register_user.php"); ?> -->
+            <?php include("register_user.php"); ?>
         </form>
         <div class="text-center small" style="color: #674288;">Already have an account? <a href="
         login.php">Sign In</a></div>
